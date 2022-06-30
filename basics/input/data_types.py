@@ -1,0 +1,12 @@
+print("What is your name human?")
+name = input()
+print("How old are you?")
+age = int(input())
+print("How tall are you in meters?")
+height = float(input())
+print("How much do you weight?")
+weight = float(input())
+bmi = weight/(height**2)
+print(f"{name} you are {age} years old and your BMI is {bmi:.2f}") #:.2f limiting value to 2 decimals
+#print(name, "you are", age, "years old and your BMI is", bmi)
+#print("{} you are {} years old and your BMI is {}".format(name, age, bmi))
